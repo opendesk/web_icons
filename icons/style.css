@@ -9,20 +9,24 @@
 
 /* ==========================================
 Single-colored icons can be modified like so:
-.icon-name {
+.name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
 
-.icon-OD_menu_mobile-nav-bar {
+.OD_menu_mobile-nav-bar {
   width: 0.7998046875em;
 }
 
-.icon-OD_logo-text {
+.icon-minus {
+  width: 7em;
+}
+
+.OD_logo-text {
   width: 3.90625em;
 }
 
-.icon-OD_logo-image {
+.OD_logo-image {
   width: 0.9697265625em;
 }
