@@ -60,7 +60,7 @@
           ]
         },
         "tags": [
-          "minus"
+          "OD_minus_mobile-nav-bar"
         ],
         "grid": 0
       },
@@ -70,7 +70,7 @@
       "properties": {
         "order": 80,
         "id": 1,
-        "name": "icon-minus",
+        "name": "OD_minus_mobile-nav-bar",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -659,7 +659,7 @@
           "12522522521": []
         },
         "tags": [
-          "OD_Web_Icon_play_with_circle_thick_black_300x300"
+          "OD_play-button"
         ],
         "grid": 0
       },
@@ -668,7 +668,7 @@
         "order": 33,
         "id": 17,
         "prevSize": 32,
-        "name": "OD_play"
+        "name": "OD_play-button"
       },
       "setIdx": 0,
       "setId": 4,
