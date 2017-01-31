@@ -10,6 +10,14 @@
 <body>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="OD_arrow_left" viewBox="0 0 32 32">
+<title>OD_arrow_left</title>
+<path class="path1" d="M24.971 28.693c0 0.181-0.053 0.373-0.171 0.533-0.299 0.416-0.875 0.512-1.291 0.213l-15.136-10.784c-0.843-0.608-1.333-1.547-1.333-2.581 0 0 0-0.011 0-0.011 0-1.035 0.48-1.973 1.323-2.581l15.147-10.923c0.416-0.299 0.992-0.203 1.291 0.213s0.203 0.992-0.213 1.291l-15.147 10.923c-0.352 0.256-0.555 0.651-0.555 1.077 0 0 0 0 0 0 0 0.437 0.203 0.832 0.555 1.077l15.136 10.795c0.256 0.181 0.395 0.469 0.395 0.757z"></path>
+</symbol>
+<symbol id="OD_arrow_right" viewBox="0 0 32 32">
+<title>OD_arrow_right</title>
+<path class="path1" d="M7.029 3.307c0-0.181 0.053-0.373 0.171-0.533 0.299-0.416 0.875-0.512 1.291-0.213l15.136 10.784c0.843 0.608 1.333 1.547 1.333 2.581 0 0 0 0.011 0 0.011 0 1.035-0.48 1.973-1.323 2.581l-15.147 10.923c-0.416 0.299-0.992 0.203-1.291-0.213s-0.203-0.992 0.213-1.291l15.147-10.923c0.352-0.256 0.555-0.651 0.555-1.077 0 0 0 0 0 0 0-0.437-0.203-0.832-0.555-1.077l-15.136-10.795c-0.256-0.181-0.395-0.469-0.395-0.757z"></path>
+</symbol>
 <symbol id="OD_logo-text" viewBox="0 0 125 32">
 <title>OD_logo-text</title>
 <path class="path1" d="M10.063 12.942c0-2.011-1.645-3.646-3.592-3.646h-0.336c-1.947 0-3.592 1.636-3.592 3.646v6.202c0 1.976 1.645 3.646 3.592 3.646h0.336c1.947 0 3.592-1.67 3.592-3.646v-6.202zM6.471 24.461h-0.336c-2.887 0-5.237-2.386-5.237-5.316v-6.202c0-2.965 2.35-5.316 5.237-5.316h0.336c2.887 0 5.236 2.352 5.236 5.316v6.202c0 2.93-2.349 5.316-5.236 5.316v0z"></path>
@@ -58,8 +66,8 @@
 <path class="path2" d="M16.512 24.448c-0.128 0.128-0.32 0.213-0.523 0.213-0.405 0-0.736-0.331-0.736-0.736l0.043-15.915c0-0.405 0.331-0.736 0.736-0.736s0.736 0.331 0.736 0.736l-0.043 15.915c0 0.203-0.075 0.384-0.213 0.523z"></path>
 <path class="path3" d="M16 29.941c-7.691 0-13.941-6.251-13.941-13.941s6.251-13.941 13.941-13.941 13.941 6.251 13.941 13.941-6.251 13.941-13.941 13.941zM16 3.52c-6.88 0-12.48 5.6-12.48 12.48s5.6 12.48 12.48 12.48 12.48-5.6 12.48-12.48-5.6-12.48-12.48-12.48z"></path>
 </symbol>
-<symbol id="OD_caret-up" viewBox="0 0 32 32">
-<title>OD_caret-up</title>
+<symbol id="OD_caret-up3" viewBox="0 0 32 32">
+<title>OD_caret-up3</title>
 <path class="path1" d="M3.307 24.971c-0.181 0-0.373-0.053-0.533-0.171-0.416-0.299-0.512-0.875-0.213-1.291l10.784-15.136c0.608-0.843 1.547-1.333 2.581-1.333 0 0 0.011 0 0.011 0 1.035 0 1.973 0.48 2.581 1.323l10.923 15.147c0.299 0.416 0.203 0.992-0.213 1.291s-0.992 0.203-1.291-0.213l-10.923-15.147c-0.256-0.352-0.651-0.555-1.077-0.555 0 0 0 0 0 0-0.437 0-0.832 0.203-1.077 0.555l-10.795 15.136c-0.181 0.256-0.469 0.395-0.757 0.395z"></path>
 </symbol>
 <symbol id="OD_caret-down" viewBox="0 0 32 32">
@@ -394,6 +402,16 @@
         <h1 class="mvm mtn fgc1">Grid Size: 0</h1>
         <div class="glyph fs1">
             <div class="clearfix pbs">
+                <svg class="icon OD_arrow_left"><use xlink:href="#OD_arrow_left"></use></svg><span class="mls"> OD_arrow_left</span>
+            </div>
+        </div>
+        <div class="glyph fs1">
+            <div class="clearfix pbs">
+                <svg class="icon OD_arrow_right"><use xlink:href="#OD_arrow_right"></use></svg><span class="mls"> OD_arrow_right</span>
+            </div>
+        </div>
+        <div class="glyph fs1">
+            <div class="clearfix pbs">
                 <svg class="icon OD_logo-text"><use xlink:href="#OD_logo-text"></use></svg><span class="mls"> OD_logo-text</span>
             </div>
         </div>
@@ -434,7 +452,7 @@
         </div>
         <div class="glyph fs1">
             <div class="clearfix pbs">
-                <svg class="icon OD_caret-up"><use xlink:href="#OD_caret-up"></use></svg><span class="mls"> OD_caret-up</span>
+                <svg class="icon OD_caret-up3"><use xlink:href="#OD_caret-up3"></use></svg><span class="mls"> OD_caret-up3</span>
             </div>
         </div>
         <div class="glyph fs1">
